@@ -14,12 +14,13 @@ function App() {
     <>
       <BrowserRouter>
       <Navbar/>
+      <div className='container mx-auto px-8 py-12'></div>
         <Routes location={''} >
           <Route path="/" element={<Home/>}/>
-          <Route path="/" element={<Login/>}/>
-          <Route path="/" element={<Register/>}/>
-          <Route path="/" element={<Profile/>}/>
-          <Route path="/" element={<UserList/>}/>
+          <Route path="/login" element={<Login/>}/>
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/profile" element={<Profile/>}/>
+          <Route path="/userList" element={<UserList/>}/>
         </Routes>
       </BrowserRouter>
     </>
