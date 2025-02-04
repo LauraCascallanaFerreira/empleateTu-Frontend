@@ -1,10 +1,10 @@
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Profile from './pages/Profile'
-import Register from './pages/Register'
-import UserList from './pages/UserList'
-import Login from './pages/Login'
 import Home from './pages/Home'
+import Login from './pages/Login'
+import Register from './pages/Register'
+import Profile from './pages/Profile'
+import UserList from './pages/UserList'
 import Navbar from './components/Navbar'
 
 function App() {
