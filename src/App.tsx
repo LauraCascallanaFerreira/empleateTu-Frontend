@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import OfferList from './pages/OfferList'
 import OfferDetail from './pages/OfferDetail'
 import OfferForm from './pages/OfferForm'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <BrowserRouter>
       <Navbar/>
+      <Toaster position='top-center' reverseOrder={false}/>
       <div className='container mx-auto px-8 py-12'></div>
         <Routes location={''} >
           <Route path="/" element={<Home/>}/>
