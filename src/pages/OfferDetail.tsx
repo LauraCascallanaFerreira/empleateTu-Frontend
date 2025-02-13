@@ -1,5 +1,3 @@
-
-
 function OfferDetail() {
   return (
     <div>OfferDetail</div>
